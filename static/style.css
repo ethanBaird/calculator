@@ -1,0 +1,73 @@
+body {
+    font-family: 'oswald', sans-serif;
+}
+
+header {
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h1 {
+    width: auto;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+h1 > b {
+    font-size: 4rem;
+}
+
+.how-to {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(0, 42, 255);
+    color: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p > b {
+    color: hotpink;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: hotpink;
+    font-size: 10rem;
+    overflow: auto;
+}
+
+.result-number {
+   font-size: 75%;
+}
+
+.result > h1 {
+    color: rgb(0, 42, 255);
+}
+
+
